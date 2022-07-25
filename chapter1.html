@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        user-select: none;
+        font-style: none;
+    }
+    body{
+    user-select:none;
+    -moz-user-select:none;
+}
+
+    nav{
+        background-color: #333;
+        color: white;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        border-bottom: 2px solid red;
+        position: sticky;
+        top: 0;
+        user-select: none;
+    }
+    .container{
+        background-color: #333;
+        height: 100%;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-left: 2px solid red;
+        border-right: 2px solid red;
+        display:grid;
+        user-select: none;
+        
+    }
+    .sheet{
+        background-color: rgb(36, 36, 102);
+        height: 100%;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: 2px solid black;
+        border-radius:2em;
+        display:grid;
+        user-select: none;
+        
+    }
+    body{
+        background-image:  url("https://free4kwallpapers.com/uploads/originals/2017/06/21/cherry-blossom-tree-wallpaper.jpg");
+        background-color: rgb(102, 97, 77);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        user-select: none;
+    }
+    
+    .row{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: inline-flex;
+        column-gap: 5%;
+        border-bottom: 2px solid white;
+        user-select: none;
+        
+    }
+    .rowl{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: inline-flex;
+        column-gap: 5%;
+        
+        user-select: none;
+    }
+    .text{
+        padding-left: 5%;
+        border-left: 2px solid white;
+    }
+    .img{
+        border-radius: 50%;
+        border: 2px solid purple;
+    }
+    .nav1{
+        background-color: rgb(112, 48, 48);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        border-bottom: 2px solid purple;
+    }
+    .nav1text{
+        font-size: 50px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        
+    }
+    .nav1text{
+        font-weight:bolder;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Synopsis{
+        background-color: silver;
+        color: black;
+        
+        font-size: 30px;
+        margin-left: 3%;
+        margin-right: 3%; 
+        padding: 1em;
+        border-radius: 2em;
+    }
+    .Synopsis h3{
+        font-size: 40px;
+    }
+    .tableofcontent{
+        margin-right:40%;
+        margin-left:40%;
+        display: grid;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        font-size: 30px;
+        background-color: rgb(240, 240, 197);
+        color: black;
+    }
+    .ft{
+        border-bottom:2px solid black;
+        border-top: 2px solid black;
+        padding: 1em;
+    }
+    .t{
+        border-bottom:2px solid black;
+        padding: 0.6em;
+        color: rgb(98, 0, 255);
+        text-decoration:none;
+    }
+    .t:hover{
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+    
+    
+
+    .chapter{
+        font-size: 30px;
+        margin-left: 4%;
+        margin-right: 4%;
+        
+       
+    }
+
+    .sheet2{
+        border-bottom: 2px solid white;
+    }
+
+    .buttons{
+    display: flex;
+    
+    margin-left: 10%;
+    margin-right: 15%;
+    font-size: 20px;
+    justify-content: space-between;
+    color: white;
+}
+.buttons a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.prev{
+    display: flex;
+    column-gap: 10%;
+}
+
+
+
+.next{
+    display: flex;
+    column-gap: 20%;
+}
+
+#inactive{
+        cursor: default;
+        pointer-events: none;        
+        text-decoration: none;
+        color: grey;
+    }
+.prev:hover{
+    color: rgb(139, 29, 29);
+}
+.next:hover{
+    color: rgb(139, 29, 29);
+}
+
+    @media only screen and (max-width: 1100px) {
+  .tableofcontent{
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+}
+
+
+
+
+    @media only screen and (max-width: 600px) {
+  .break{
+      display:none;
+  }
+  .tableofcontent{
+      margin-left:0%;
+      margin-right: 0%;
+      font-size: 15px;
+  }
+  .Synopsis{
+      border-radius: 0;
+      margin-left: 0;
+      margin-right:0;
+      font-size: 15px;
+  }
+  .Synopsis h3{
+        font-size: 20px;
+    }
+  .sheet{
+      border-radius: 0;
+      margin-left: 0;
+      margin-right:0;
+  }
+  .nav1text{
+      font-size: 40px;
+  }
+  .container{
+      border-radius: 0;
+      margin-left: 0;
+      margin-right:0;
+  }
+}
+
+
+    .container{}
+</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        RandomSwordsThief
+    </title>
+</head>
+    <body>
+        <nav>
+            <center>
+                <h1>RandomSwordsThief</h1>
+            </center>
+        </nav>
+        <div class = "container">
+            <div class ="nav1">
+                <div class = "nav1text">
+                    <p>Chapter 1</p>
+                </div>
+            </div>
+                <br><br><br>
+            <div class ="sheet2">
+            <div class = "chapter">
+
+                "998, 999, 1000..."
+<br><br>
+In a dojo, a boy was sweating while waving a bamboo knife in his hand, with a serious look on his face.
+<br><br>
+His father beside him nodded from time to time. His name was Kazawa Masahiro. He is the owner of the Iron Edge Dojo!
+<br><br>
+If he is proud of anything in his life, it must be his son! Even people from other dojos in the Iron Country couldn't help but praise him!
+<br><br>
+But the little boy didn't care about this at all. His current name is Kazawa Masashi. He used to be a software engineer before he got hit by a truck.
+<br><br>
+After his death, he was thrown into the Ninja world, specifically, the Iron Country. Originally, he thought that he was thrown into an uncivilized backward world so he chose to become a samurai without hesitation. It just so happened that his current family owned a dojo.
+<br><br>
+After he was officially brought into the dojo by his father, Kazawa Masahiro, he awakened the system. He was given two options, the ninja system or the samurai system.
+<br><br>
+What a stupid question.
+<br><br>
+What were Ninjas in comparison to Samurai in ancient times? As far as Kazawa Masashi is aware, they sucked big time.
+<br><br>
+Why would he live in the dark at all times? You thought this was Naruto!
+He, Kazawa Masashi, happily became a samurai.
+<br><br>
+But he soon regretted it!
+<br><br>
+After choosing the Samurai system, he heard a term that shocked him from time to time. Chakra!
+<br><br>
+A lot of people talked about Chakra in his old life. Like those shitty scammers: "I am going to unlock your chakra by massaging you."
+<br><br>
+Kazawa Masashi didn't care, after all, the term Chakra in Naruto came from Indian yoga. So whatever.
+<br><br>
+But not long after, he learned the name of the country that he is in. 
+<br><br>
+The Iron country!
+<br><br>
+After hearing the name, he almost had a seizure. But he forcefully calmed himself. It is definitely a coincidence!
+
+<br><br>
+            </div>
+        </div>
+            
+                <br><br>
+            
+
+            <div class ="buttons">
+                <a href="index.html"><div class ="prev"><img class ="left" width = "50px" src ="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F10%2FPNGPIX-COM-Arrow-PNG-Image-3-1.png&f=1&nofb=1"><div class ="prevtxt">Previous</div></div></a>
+                <a id="inactive" href="chapter2.html"><div class ="next"><div class ="nexttxt">Next</div><img class ="right" width = "50px" src ="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F10%2FPNGPIX-COM-Arrow-Transparent-PNG-Image-3.png&f=1&nofb=1"></div></a>
+            </div>
+            
+                <br><br>
+            
+</div>
+    </div>
+
+    </body>
