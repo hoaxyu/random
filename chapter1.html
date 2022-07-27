@@ -214,6 +214,14 @@
     color: rgb(139, 29, 29);
 }
 
+.fb-comments{
+    background-color: #333;
+    color: WHITE;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
     @media only screen and (max-width: 1100px) {
   .tableofcontent{
       margin-left: 20%;
@@ -281,6 +289,10 @@
       margin-left: 0;
       margin-right:0;
       border: none;
+      
+  }
+  .buttons a{
+    font-size: 20px;
   }
   nav{
     top: none;
@@ -298,7 +310,10 @@
     </title>
 </head>
     <body>
-        <nav>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="aVDnwI37"></script>
+
+            <nav>
             <center>
                 <h1>RandomSwordsThief</h1>
             </center>
@@ -361,15 +376,20 @@ After hearing the name, he almost had a seizure. But he forcefully calmed himsel
             <div height = "800px" class = "nice2">
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </div>
-            <div class = "break"><br><br></div>
+            <div class = "break2"><br><br></div>
             <div class ="buttons">
                 
                 <a href="index.html"><div class ="prev"><img class ="left" width = "50px" src ="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F10%2FPNGPIX-COM-Arrow-PNG-Image-3-1.png&f=1&nofb=1"><div class ="prevtxt">Previous</div></div></a>
                 <a id="inactive" href="chapter2.html"><div class ="next"><div class ="nexttxt">Next</div><img class ="right" width = "50px" src ="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngpix.com%2Fwp-content%2Fuploads%2F2016%2F10%2FPNGPIX-COM-Arrow-Transparent-PNG-Image-3.png&f=1&nofb=1"></div></a>
             </div>
             
-            <div class = "break"><br><br></div>
+            <div class = "break2"><br><br></div>
             
+            <div class = "break2"><br><br></div>
+
+            <center>
+                <div class="fb-comments" data-href="https://hoaxyu.github.io/randomswordsthief/chapter1.html" data-width="100%" data-numposts="5"></div>
+            </center>
 </div>
     </div>
 
