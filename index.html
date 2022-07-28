@@ -145,6 +145,12 @@
             box-shadow: 4px 4px black;
         }
 
+        .projectimage img{
+            border-radius: 1em;
+            box-shadow: 4px 4px black;
+            object-fit: cover;
+        }
+
 
     @media only screen and (max-width: 900px){
     .box{
@@ -162,6 +168,8 @@
         
 }
 
+
+
 .con{
     margin-bottom: 0%;;
 }
@@ -170,7 +178,8 @@
    
     display: flex;
     justify-content: center;
-    margin-bottom: 7%;
+    object-fit: cover;
+    
 }
 
 .container{
@@ -236,7 +245,7 @@
 
         <div class = "project">
             <a href = "naruto.html">
-            <center><img class="projectimage" src = "cover.jpg" height="332px" width = "250px"></center>
+            <center><div class = "projectimage"><img  src = "cover.jpg" height="332px" width = "250px"></div></center>
        
 
         <div class = "description">
