@@ -57,16 +57,35 @@
 
         .container{
             background-color: rgb(83, 26, 26);
-            margin: 5%;
-            border-radius: 2em;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            border-top-left-radius: 2em;
+            border-top-right-radius: 2em;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            box-shadow: 5px 0px black;
+            padding-top: 0.01%;
+            padding-bottom: 0.01%;
+            border-top: 3px solid black;
+            border-bottom: 2px solid white;
+        }
+        .procont{
+            background-color: #333;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+            border-bottom-left-radius: 2em;
+            border-bottom-right-radius: 2em;
             border-left: 3px solid black;
             border-right: 3px solid black;
             box-shadow: 5px 5px black;
             padding-top: 0.01%;
             padding-bottom: 0.01%;
-            border-top: 3px solid black;
+            
             border-bottom: 3px solid black;
         }
+        
 
         h1{
             font-size: 40px;
@@ -103,6 +122,8 @@
             cursor: pointer;
         }
 
+        
+        
         h2{
             font-size: 30px;
             margin: 3%;
@@ -237,6 +258,12 @@
     border: none;
     border-radius: 0;
 }
+.procont{
+    margin: 0;
+    border: none;
+    border-top: 2px solid white;
+    border-radius: 0;
+}
 .project{
     display: grid;
 }
@@ -292,7 +319,23 @@ nav{
             border-top: 2px solid white;
             padding-top: 10px;
         }
+
+        
     }
+
+    .project{
+  
+ 
+  /* width of your text div */
+ 
+  /* height of your text div */
+  
+  animation: marquee 10s linear infinite; /* change 5s value to your desired speed */
+}
+.project:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
     </style>
 
     <body>
@@ -336,15 +379,17 @@ nav{
     </div>
 
     
-        <div class = "con" height= 400px>
-            <a href = "https://www.webnovel.com/profile/4316473169?appId=10">
-    <img class = "picture" src = "oldman.jpg" >
-</div>
+        
 </a>
         </div>
     <div class = "break">
         <br><br>
     </div>
+    </div>
+    <div class ="procont">
+        <div class = "break">
+            <br>
+        </div>
         <h2>
             Project(s):
         </h2>
@@ -353,6 +398,7 @@ nav{
             <br><br>
         </div>
 
+       
         <div class = "project">
             <a href = "naruto.html">
             <center><div class = "projectimage"><img  src = "cover.jpg" height="332px" width = "250px"></div></center>
@@ -380,7 +426,12 @@ This fanfic is about a transmigrator who achieves what others thought impossible
             <br><br>
         </div>
         </div>
+
+        
     </div>
+
+</div>
+
 </div>
     <div class = "breakx">
         <br><br>
