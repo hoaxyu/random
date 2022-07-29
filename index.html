@@ -34,20 +34,35 @@
 
 
         body{
-            background-color: black;
+            background-color: rgb(43, 25, 25);
+            
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        nav{
+            height: 400px;
+            width: 100%;
+            background-image: url("shdowx.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            border-bottom: 1px solid white;
         }
 
         .container{
-            background-color: #333;
+            background-color: rgb(83, 26, 26);
             margin: 5%;
             border-radius: 2em;
             border-left: 3px solid blue;
-            border-right: 3px solid blue;
+            border-right: 3px solid black;
             box-shadow: 5px 5px black;
             padding-top: 0.01%;
             padding-bottom: 0.01%;
-            border-top: 3px solid red;
-            border-bottom: 3px solid red;
+            border-top: 3px solid blue;
+            border-bottom: 3px solid black;
         }
 
         h1{
@@ -120,7 +135,7 @@
             
             border-radius: 50%;
             height: 250px;
-            border: 2px solid red;
+            border: 2px solid white;
             
         }
         
@@ -135,7 +150,7 @@
         .project:hover{
             color: red;
             border-radius: 2em;
-            border: 2px solid red;
+            border: 2px solid white;
             padding: 10px;
             cursor: pointer;
         }
@@ -151,6 +166,13 @@
             object-fit: cover;
         }
 
+        .navlogo{
+            height: 200px;
+            border-radius: 50%;
+            border: 12px solid rgb(43, 25, 25); 
+            margin-left: 5%;
+            margin-top: 300px;
+        }
 
     @media only screen and (max-width: 900px){
     .box{
@@ -196,12 +218,35 @@
 .projectimage{
     box-shadow: none;
 }
+
+body{
+    background-color: rgb(83, 26, 26);
+}
+nav{
+    height: 300px;
+}
+.navlogo{
+    margin-top: 200px;
+    height: 150px;
+    border: 8px solid rgb(83, 26, 26);
+}
     }
     </style>
 
     <body>
         <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="KlDCECA5"></script>
+
+        <nav>
+            <img class= "navlogo" src = "Old Man.jpg" > 
+        </nav>
+
+        <div class = "break2">
+            <br><br>
+        </div>
+        <div class = "break2">
+            <br><br>
+        </div>
 
         <div class = "container">
         <h1>
