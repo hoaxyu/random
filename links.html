@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Links</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        *{
+            margin: 0;
+            color: white;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        h1{
+            font-size: 35px;
+            font-style: italic;
+            color: orangered;
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+
+        .container{
+            background-color: silver;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        nav{
+            background-color: #333;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 20%;
+            margin-right: 20%;
+            
+        }
+
+        .ccontainer{
+            background-color: silver;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        .fb-comments{
+            background-color: silver;
+            margin-top: 3%;
+        }
+
+        @media only screen and (max-width: 700px){
+            .container{
+            background-color: silver;
+            margin-left: 0%;
+            margin-right: 0%;
+            
+        }
+
+        body{
+            background-color: silver;
+        }
+
+        nav{
+            background-color: #333;;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 0%;
+            margin-right: 0%;
+
+        }
+        }
+        
+        
+        
+    </style>
+
+    <body>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="ligxeVVG"></script>
+
+        <nav>
+            <center>
+                <h1>My Links</h1>
+            </center>
+        </nav>
+        <div class = "container">
+            <div class = "ccontainer">
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="8"></div>
+            </div>
+        </div>
+    </body>
+</html>
