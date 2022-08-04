@@ -1,513 +1,152 @@
 <html>
     <head>
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-
-      <link rel="icon" href="wallpaper.jpg">
+        <title>Links</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            RandomSwordsThief
-        </title>
     </head>
-
     <style>
         *{
-            padding: 0;
             margin: 0;
-            font-size: 20px;
             color: white;
-        }
-
-        .commentscon{
-            border-top: 2px solid red;
-            padding: 3%;
-            background-color: rgb(204, 204, 204);
-        }
-
-        .commentscon2{
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-bottom: 3%;
-            background-color: rgb(204, 204, 204);
-        }
-
-        .fb-comments{
-            background-color: rgb(204, 204, 204);
-        }
-
-
-        body{
-            background-color: rgb(43, 25, 25);
-            
-            background-size:cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-
-        nav{
-            height: 400px;
-            width: 100%;
-            background-image: linear-gradient( rgba(43, 25, 25, 0.4), rgba(43, 25, 25, 0.4) ),url("wallpaperx.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment:fixed;
-            border-bottom: 1px solid black;
-            box-shadow: 10px 3px black;
-            border-bottom-right-radius: 2em;
-            border-bottom-left-radius: 2em;
-        }
-
-        .container{
-            background-color: rgb(83, 26, 26);
-            margin-left: 20%;
-            margin-right: 20%;
-            margin-top: 5%;
-            border-top-left-radius: 2em;
-            border-top-right-radius: 2em;
-            border-left: 3px solid black;
-            border-right: 3px solid black;
-            box-shadow: 5px 0px black;
-            padding-top: 0.01%;
-            padding-bottom: 0.01%;
-            border-top: 3px solid black;
-            border-bottom: 2px solid white;
-        }
-        .procont{
-            background-color: #333;
-            margin-left: 20%;
-            margin-right: 20%;
-            margin-bottom: 5%;
-            border-bottom-left-radius: 2em;
-            border-bottom-right-radius: 2em;
-            border-left: 3px solid black;
-            border-right: 3px solid black;
-            box-shadow: 5px 5px black;
-            padding-top: 0.01%;
-            padding-bottom: 0.01%;
-            
-            border-bottom: 3px solid black;
-        }
-        
-
-        h1{
-            font-size: 40px;
-            margin: 3%;
-            border-bottom: 3px solid white;
-        }
-
-        
-
-        .section{
-            padding: 2px;
-            border-radius: 1em;
-            border: 2px solid white;
-            margin: 3%;
-            background-color:rgb(44, 10, 10)
-        }
-        .section:hover{
-            padding: 3px;
-            cursor:zoom-in;
-           
-        }
-
-        .section:hover h2{
-            font-size: 35px;
-            
-        }
-
-        .section:hover p{
-            font-size: 25px;
-            
-        }
-
-        .picture:hover{
-            height: 280px;
-            cursor: pointer;
-        }
-
-        
-        
-        h2{
-            font-size: 30px;
-            margin: 3%;
-        }
-
-        h3{
-            font-size: 25px;
-            margin: 3%;
         }
 
         p{
             font-size: 20px;
-            margin: 3%;
-        }
-        .box{
-            display: flex;
         }
 
-        .con{
-            
-            display: flex;
-            justify-content: center;
-            
-            margin-top: 3%;
-            margin-left: 3%;
-            margin-right: 3%;
-            
+        h1{
+            font-size: 35px;
+            font-style: italic;
+            color: orangered;
+            padding-top: 2%;
+            padding-bottom: 2%;
         }
 
-
-
-        .picture{
-            
-            border-radius: 50%;
-            height: 250px;
-            border: 2px solid white;
-            display: none;
-        }
-        
-        .project{
-            display: flex;
-            margin-right: 3%;
-            margin-left: 3%;
-            margin-bottom: 3%;
-            padding: 10px;
-        }
-
-        .project:hover{
-            color: red;
-            border-radius: 2em;
-            border: 2px solid white;
-            
-            cursor: pointer;
-            background-color: rgb(37, 37, 37);
-        }
-
-        .projectimage{
-            border-radius: 1em;
-            box-shadow: 4px 4px black;
-        }
-
-        .projectimage img{
-            border-radius: 1em;
-            box-shadow: 4px 4px black;
-            object-fit: cover;
-        }
-
-        .navlogo{
-            height: 200px;
+        .container{
+            background-color: silver;
             margin-left: 20%;
-            margin-top: 300px;
-            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-            border: 6px solid red;
-	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-	animation: morphing 10s infinite;
-	overflow: hidden;}
+            margin-right: 20%;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        nav{
+            background-color: #333;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 20%;
+            margin-right: 20%;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            z-index: 2;
 
-	.navlogo:hover{
-		animation-play-state: paused;
         }
 
-        
-
-
-        @keyframes morphing {
-		0% {
-			border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% 2px ;
-			box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
-		}
-		25% { 
-			border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
-		}
-		50% {
-			border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-			box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
-		}
-		75% {
-			border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;		
-		}
-	}
-
-    @media only screen and (max-width: 900px){
-    .box{
-        display: grid;
-    }
-
-    .picture{
-        margin-top: 5%;
-        height: 200px;
-    }
-
-    .picture:hover{
-        margin-top: 5%;
-        height: 250px;
-        
-}
-
-.picture{
-    display: none;
-}
-
-.con{
-    margin-bottom: 0%;;
-}
-
-.projectimage{
-   
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-    
-}
-
-nav{
-    border-bottom-right-radius: 0em;
-                    border-bottom-left-radius: 0em;
-                    box-shadow: 0px 0px;
-                    border-bottom: 1px solid white;
-}
-
-.container{
-    margin: 0;
-    border: none;
-    border-radius: 0;
-}
-.procont{
-    margin: 0;
-    border: none;
-    border-top: 2px solid white;
-    border-radius: 0;
-}
-.project{
-    display: grid;
-}
-.breakx{
-    display: none;
-}
-.projectimage{
-    box-shadow: none;
-}
-
-body{
-    background-color: rgb(83, 26, 26);
-}
-nav{
-    height: 300px;
-}
-.navlogo{
-    margin-top: 200px;
-    height: 150px;
-    border: 2px solid white;
-    margin-left: 5%;
-}
-
-.description{
-    margin-top: 7%;
-}
-
-nav{
-    background-attachment: scroll;
-}
-
-.project{
-    border: 2px solid white;
-    border-radius: 2em;
-    background-color: rgb(37, 37, 37);
-}
-
-.section:hover{
-            padding: 2px;
-            cursor: default;
-           
+        .ccontainer{
+            background-color: silver;
+            margin-left: 5%;
+            margin-right: 5%;
         }
 
-        .section:hover h2{
-            font-size: 30px;
+        body{
+            background-color: black;
+            background-image: url("lines.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .fb-comments{
+            background-color: silver;
+            margin-top: 3%;
+        }
+        .shika{
+            border-bottom: 2px solid black;
+        }
+        #fb-root{
+            color: white;
+        }
+
+        @media only screen and (max-width: 700px){
+            .container{
+            background-color: silver;
+            margin-left: 0%;
+            margin-right: 0%;
             
         }
 
-        .section:hover p{
-            font-size: 20px;
-            
+        body{
+            background-color: silver;
+            background-image: none;
         }
 
-        .project{
-            transform: scale(0.7);
-        }
-        .picture{
-            transform: scale(0.7);
-        }
-        .description{
-            border-top: 2px solid white;
-            padding-top: 10px;
+        nav{
+            background-color: #333;;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 0%;
+            margin-right: 0%;
+            z-index: 10px;
+            border-left: 0;
+            border-right: 0;
         }
 
-        .commentscon2{
-            margin-left: 3%;
-            margin-right: 3%
+        .shika{
+            height: 300px;
         }
-    }
 
-    .project{
-  
- 
-  /* width of your text div */
- 
-  /* height of your text div */
-  
-  animation: marquee 10s linear infinite; /* change 5s value to your desired speed */
-}
-.project:hover {
-  animation-play-state: paused;
-  cursor: pointer;
-}
+        .container{
+            border-left: 0;
+            border-right: 0;
+        }
+        }
+        
+        .UFIImageBlockContent {
+            color: white;
+        }
+        ._42ef{
+            color: white;
+        }
+        .clearfix{
+            color: white;
+        }
+        ._5mdd{
+            color: white;
+            text-decoration-color: white;
+        }
+        #text{
+            color: White;
+        }
+        span{
+            color: White;
+        }
+        .UFICommentActorName a{
+            text-decoration-color: red;
+        }
+        ._50f7{
+            color: red;
+        }
+        div.theChampCommentingTabs ul li{color:white!important}
     </style>
 
     <body>
         <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="KlDCECA5"></script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="uzQCjGP7"></script>
+
+       <div class = "container">
+        <img class = "shika" src = "https://wallpaperaccess.com/full/1975322.jpg" height= 400px width = 100%>
+       </div>
 
 
         <nav>
-            <style>
-                .overlay{
-                    height: 100%;
-                    margin: 0;
-                    width: 100%;
-                    background-image: url("overlay3.png");
-                    background-repeat: repeat;
-                    background-size: 15px;
-                    border-bottom-right-radius: 2em;
-                    border-bottom-left-radius: 2em;
-                }
-
-                @media only screen and (max-width: 900px){
-                    .overlay{
-                        border-bottom-right-radius: 0em;
-                    border-bottom-left-radius: 0em;
-                    }
-                }
-
-                nav{
-                    display:flexbox;
-                }
-                .navlogo{
-                    margin-top: -100px;
-                    bottom: 100px;
-                }
-            </style>
-            <div class = "overlay"></div>
-            <img class= "navlogo" src = "wallpaper.jpg" > 
+            <center>
+                <h1>My Links</h1>
+            </center>
         </nav>
-   
-        <div class = "break2">
-            <br><br>
-        </div>
-        <div class = "break2">
-            <br><br>
-        </div>
-
         <div class = "container">
-        <h1>
-            About:
-        </h1>
-
-        <div class = "break">
-            <br><br>
-        </div>
-
-        <div class = "box">
-
-        <div class = "section">
-        <h2>
-            RandomSwordsThief (A.F)
-        </h2>
-
-        <div class = "break">
-            <br><br>
-        </div>
-
-        <p>
-            I am a translator. Mostly. Love reading novels and fanfictions. Hate naive and annoying protagonists. A Computer Scientist. Born in November. 
-        </p>
-    </div>
-
-    
-        
-</a>
-        </div>
-    <div class = "break">
-        <br><br>
-    </div>
-    </div>
-    <div class ="procont">
-        <div class = "break">
-            <br>
-        </div>
-        <h2>
-            Project/s (Translation/s):
-        </h2>
-
-        <div class = "break">
-            <br><br>
-        </div>
-
-       
-        <div class = "project">
-            <a href = "naruto.html">
-            <center><div class = "projectimage"><img  src = "cover.jpg" height="332px" width = "250px"></div></center>
-       
-
-        <div class = "description">
-            <h3>
-                Synopsis:
-            </h3>
             
-
-            <p>
-                Become the strongest in the world of Ninjutsu with pure physique and swordsmanship! Chakra is for weaklings.<br><br>
-
- Kazawa Masashi: I am not willing!<br><br>
-System: You are willing! <br><br>
- Kazawa Masashi: I am willing.<br><br>
-
-This fanfic is about a transmigrator who achieves what others thought impossible!
-            </p>
-
-        </a>
-
-        <div class = "break">
-            <br><br>
+            <div class = "ccontainer">
+                <div colorscheme="light" class="fb-comments" data-href="https://randomswords.github.io/randomswords/links" data-width="100%" data-numposts="10"></div>
+            </div>
         </div>
-        </div>
-
-        
-    </div>
-
-</div>
-
-</div>
-    <div class = "breakx">
-        <br><br>
-    </div>
-
-    <div class = "commentscon">
-
-        <div class = "commentscon2">
-            <div class="fb-comments" data-href="https://hoaxyu.github.io/randomswordsthief/" data-width="100%" data-numposts="5"></div>
-        </div>
-
-    </div>
-
-
     </body>
 </html>
-
-
-
-
-
-
