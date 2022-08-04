@@ -23,18 +23,21 @@
 
         .container{
             background-color: silver;
-            margin-left: 30%;
-            margin-right: 30%;
+            margin-left: auto;
+            margin-right: auto;
             border-left: 2px solid black;
             border-right: 2px solid black;
+            width: 757.2;
+            justify-self: center;
         }
         nav{
             background-color: #333;
             border-bottom: 2px solid orangered;
+            margin-left: auto;
+            margin-right: auto;
             top: 0;
             position: sticky;
-            margin-left: 30%;
-            margin-right: 30%;
+            width: 757.2;
             border-left: 2px solid black;
             border-right: 2px solid black;
             z-index: 2;
@@ -65,17 +68,19 @@
             color: white;
         }
 
-        @media only screen and (max-width: 1200px){
+        @media only screen and (max-width: 757.2px){
             .container{
             background-color: silver;
-            margin-left: 0%;
-            margin-right: 0%;
+            width: 100%;
             
         }
+
 
         body{
             background-color: silver;
             background-image: none;
+            margin-left: 0;
+            margin-right: 0;
         }
 
         nav{
@@ -88,6 +93,48 @@
             z-index: 10px;
             border-left: 0;
             border-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+
+        .shika{
+            height: 400px;
+        }
+
+        .container{
+            border-left: 0;
+            border-right: 0;
+        }
+        }
+
+        @media only screen and (max-width: 550px){
+            .container{
+            background-color: silver;
+            width: 100%;
+            
+        }
+
+        body{
+            background-color: silver;
+            background-image: none;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        nav{
+            background-color: #333;;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 0%;
+            margin-right: 0%;
+            z-index: 10px;
+            border-left: 0;
+            border-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
         }
 
         .shika{
